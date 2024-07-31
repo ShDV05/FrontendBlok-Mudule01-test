@@ -1,5 +1,8 @@
+body{
+    background-color: aquamarine;
+}
 h1{
-    color: aqua;
+    color: rgb(0, 129, 129);
 }
 p{
     color: black;
