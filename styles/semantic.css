@@ -32,8 +32,11 @@ a {
 }
 
 .link {
+    display: block;
+    text-align: center;
     background-color: rebeccapurple;
     color: white;
+    margin-top: 5px;
     padding: 8px 15px;
 }
 
@@ -77,6 +80,14 @@ section {
     margin-bottom: 20px;
 }
 
-.section section:first-child {
-    background: moccasin;
+.results {
+    display: flex;
+    gap: 10px;
+}
+.section{
+    flex-basis: 20%;
+}
+
+.headers {
+    gap: 10px;
 }
